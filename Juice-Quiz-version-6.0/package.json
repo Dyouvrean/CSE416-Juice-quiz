@@ -1,0 +1,27 @@
+{
+  "name": "juice-quiz",
+  "version": "1.0.0",
+  "description": "Starter code for quiz-app beginner react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1043.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "node": "^17.1.0",
+    "nodemon": "^2.0.15",
+    "npm": "^8.3.0"
+  },
+  "heroku-run-build-script": true
+}
